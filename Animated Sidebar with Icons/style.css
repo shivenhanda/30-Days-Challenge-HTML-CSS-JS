@@ -1,0 +1,37 @@
+body {
+    background-color: #090933;
+    font-size: 24px;
+    margin: 0;
+}
+
+.container {
+    width: 50px;
+    height: 600px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.4s ease;
+}
+
+a {
+    padding: 30px 7px;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+}
+
+.line {
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

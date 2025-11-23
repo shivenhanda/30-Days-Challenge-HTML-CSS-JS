@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 1rem;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+input,
+button,
+h3 {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+h3 {
+    color: #ff5e00;
+    max-width: 240px;
+    overflow-x: auto;
+    padding: 10px;
+    scrollbar-width: none;
+    margin-left: 5px;
+}

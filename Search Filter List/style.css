@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 10px;
+    background-color: chocolate;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 240px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}

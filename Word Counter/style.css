@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #4848e0;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    font-size: 1.2rem;
+    width: 200px;
+    height: 300px;
+    max-width: 200px;
+    min-height: 300px;
+    resize: none;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+span {
+    background-color: #050542;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}

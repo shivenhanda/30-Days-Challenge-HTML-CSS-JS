@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    font-size: 24px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: orange;
+    padding: 5px;
+}
+
+a {
+    margin: 10px;
+    font-size: 24px;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px;
+}
+
+i {
+    margin-top: 8px;
+    padding: 5px;
+}
+
+p {
+    text-align: center;
+    padding: 5px;
+}
+
+main {
+    height: 93vh;
+    margin: 0;
+}
+
+a:hover {
+    color: red;
+}
+
+@media (max-width:400px) {
+
+    header,
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    a,
+    span {
+        text-align: center;
+        margin: 0;
+    }
+}

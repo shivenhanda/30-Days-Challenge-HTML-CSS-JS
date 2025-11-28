@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    color: #fff;
+    background-color: #090932;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    gap: 20px;
+}
+
+.symbol {
+    font-size: 10vh;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.image p {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+select {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text p {
+    font-size: 5vh;
+}
